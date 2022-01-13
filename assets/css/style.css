@@ -1,3 +1,9 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css");
+
+* {
+  font-family: "BPG Arial", sans-serif !important;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
