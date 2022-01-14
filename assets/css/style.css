@@ -663,6 +663,10 @@ section {
   border-radius: 5px;
   border: 1px solid #eef0ef;
 }
+.courses .course-item img {
+  height: 247px;
+  width: 100%;
+}
 .courses .course-content {
   padding: 15px;
 }
