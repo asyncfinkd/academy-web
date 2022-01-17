@@ -113,7 +113,7 @@
       },
 
       1200: {
-        slidesPerView: 2,
+        slidesPerView: 4,
         spaceBetween: 20,
       },
     },
