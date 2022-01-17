@@ -824,10 +824,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5fcf80;
+  border: 1px solid #001d6d;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5fcf80;
+  background-color: #001d6d;
 }
 @media (max-width: 767px) {
   .testimonials .testimonial-wrap {
