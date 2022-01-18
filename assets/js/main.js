@@ -122,12 +122,12 @@
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 1000000,
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiper-course-pagination",
       type: "bullets",
       clickable: true,
     },
