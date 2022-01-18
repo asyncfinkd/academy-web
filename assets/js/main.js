@@ -118,16 +118,42 @@
       },
     },
   });
-  new Swiper(".carousel-slider", {
+  new Swiper(".carousel-slider-course", {
     speed: 600,
     loop: true,
     autoplay: {
-      delay: 1000000,
+      delay: 5000,
       disableOnInteraction: false,
     },
     slidesPerView: "auto",
     pagination: {
       el: ".swiper-course-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20,
+      },
+    },
+  });
+
+  new Swiper(".carousel-slider-services", {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    slidesPerView: "auto",
+    pagination: {
+      el: ".swiper-service-pagination",
       type: "bullets",
       clickable: true,
     },
