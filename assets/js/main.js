@@ -127,7 +127,7 @@
     },
     slidesPerView: "auto",
     pagination: {
-      el: ".swiper-course-pagination",
+      el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
     },
