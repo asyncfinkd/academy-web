@@ -1385,3 +1385,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+@media all and (max-width: 1024px) {
+  .native__responsive__paragraphs {
+    font-size: 18px !important;
+  }
+}
