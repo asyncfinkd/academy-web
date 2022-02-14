@@ -655,6 +655,12 @@ section {
   border-radius: 5px;
   border: 1px solid #eef0ef;
 }
+.courses .course-item__children {
+  transition: all 0.2s ease;
+}
+.courses .course-item__children:hover {
+  transform: scale(1.1);
+}
 .courses .course-item img {
   height: 247px;
   width: 100%;
